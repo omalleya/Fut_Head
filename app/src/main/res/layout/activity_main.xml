@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/titletxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/titlebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titletxt"
+        android:text="@string/Title" />
+
+    <TextView
+        android:id="@+id/desctxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlebutton"
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/descbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desctxt"
+        android:text="@string/Description" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descbutton"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/logobutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:text="@string/Logo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player"
+        android:id="@+id/playerButton"
+        android:layout_below="@+id/logobutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp" />
+
+</RelativeLayout>
